@@ -23,7 +23,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import r2_score
 
-df = pd.read_csv('/content/quikr_car.csv')
+df = pd.read_csv('quikr_car.csv')
 
 df.head()
 
